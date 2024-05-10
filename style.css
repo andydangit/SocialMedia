@@ -12,6 +12,11 @@
     --color-light: hsl(252,30%, 95%);
     --color-gray: hsl(240, 1%, 51%);
 
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
 }
 
 
@@ -29,5 +34,31 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    color: var(--color-dark)
+    color: var(--color-dark);
+    background: var(--color-light);
+    overflow-x: hidden;
+}
+
+
+/* style  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-photo{
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.btn{
+display: inline-block;
+padding: var(--btn-padding)
 }
