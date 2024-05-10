@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Media Site</title>
-    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
+
 <body>
     <nav>
         <div class="container">
@@ -25,6 +27,119 @@
             </div>
         </div>
     </nav>
-    
+
+
+    <main>
+        <div class="container">
+
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="./images/profile.jpg" alt="left profile-picture">
+                    </div>
+                    <div class="handle">
+                        <h4> Andy Dang</h4>
+                        <p class="text-muted">
+                            @AndyDangIt
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Left SideBar  -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="uil uil-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count"> 9+</small></i></span>
+                        <h3>Notification</h3>
+
+                        <!-- Message Notification popup  -->
+                        <div class="notifications-popup">
+                            <div> 
+                                <div class="profile-picture">
+                                    <img src="./images/profile2.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>John Doe</b> commented on your post
+                                    <small class="text-muted">3 hours ago</small>
+                                </div>
+                            </div>
+
+                            <div> 
+                                <div class="profile-picture">
+                                    <img src="./images/profile3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Katie Kai</b> accepted your friend request
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+
+                            
+                            <div> 
+                                <div class="profile-picture">
+                                    <img src="./images/profile4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Cindy Sue</b> and <b> 400 others </b> liked your post</b>
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>
+
+                            <div> 
+                                <div class="profile-picture">
+                                    <img src="./images/profile5.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Chung Li</b> liked your post
+                                    <small class="text-muted">2 Days Ago</small>
+                                </div>
+                            </div>                         
+                        </div>
+
+                    </a>
+
+                    <a class="menu-item" id="message-notifications">
+                        <span><i class="uil uil-envelope-alt"> <small class="notifications-count">8</small></i></span>
+                        <h3>Message</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="uil uil-chart-line"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+
+                    <a class="menu-item ">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+
+                </div>
+
+                <label for="create-post" class="btn btn-primary">Create Post </label>
+
+            </div>
+
+
+            <div class="middle">
+                  Middle  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo voluptatibus ipsum necessitatibus itaque quisquam laudantium exercitationem sed facere, id eaque!
+            </div>
+
+
+            <div class="right">
+              Right Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, officia.
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>
