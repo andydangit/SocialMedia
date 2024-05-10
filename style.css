@@ -4,7 +4,7 @@
 :root{
     --color-dark: hsl(250, 30%, 17%);
     --color-black: hsl(252, 30%, 10%);
-    --color-primary: hsl(252, 75%, 60%);
+    --color-primary: hsl(252, 75%, 71%);
     --color-secondary: hsl(252, 100%, 90%);
     --color-success: hsl(120, 95%, 65%);
     --color-danger: hsl(0, 76%, 57%);
@@ -58,7 +58,32 @@ img{
     width: 100%;
 }
 
+.text-bold{
+    font-weight: 500;
+}
+
+.text-muted{
+    color: var(--color-gray);
+}
+
 .btn{
 display: inline-block;
-padding: var(--btn-padding)
+padding: var(--btn-padding);
+font-weight: 500;
+border-radius: var(--border-radius);
+cursor: pointer;
+transition: all 300ms ease;
+font-size: 0.9rem;
 }
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.btn-primary{
+    background: var(--color-primary);
+    color: whitesmoke;
+}
+
+
+/* navBar  */
