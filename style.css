@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --color-dark: hsl(250, 30%, 17%);
+    --color-black: hsl(252, 30%, 10%);
+    --color-primary: hsl(252, 75%, 60%);
+    --color-secondary: hsl(252, 100%, 90%);
+    --color-success: hsl(120, 95%, 65%);
+    --color-danger: hsl(0, 76%, 57%);
+    --color-white: hsl(252, 30%, 100%);
+    --color-light: hsl(252,30%, 95%);
+    --color-gray: hsl(240, 1%, 51%);
+
+}
+
+
 *,
 *::before,
 *::after {
@@ -8,4 +25,9 @@
   text-decoration: none;
   list-style: none;
   border: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--color-dark)
 }
